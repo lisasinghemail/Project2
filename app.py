@@ -40,7 +40,7 @@ selected_municipalities = st.sidebar.multiselect(
     options=municipalities,
     default=municipalities
 )
-date= pd.to_datetime(relief_df["date"], errors="coerce")
+date= pd.to_datetime(date, errors="coerce")
 min_date = date.min().date()
 max_date = date.max().date()
 selected_dates = st.sidebar.date_input(
@@ -57,8 +57,8 @@ else:
 
 filtered_relief = relief_df[
     (relief_df["municipality"].isin(selected_municipalities))
-    & (relief_df["date"].dt.date >= start_date)
-    & (relief_df["date"].dt.date <= end_date)
+    & (date.dt.date >= start_date)
+    & (date.dt.date <= end_date)
 ].copy()
 
 if infra_df is not None:
