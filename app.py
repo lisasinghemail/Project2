@@ -11,22 +11,8 @@ st.set_page_config(
 
 st.title("Isla Coralina Relief Operations Dashboard")
 
-RELIEF_FILE = "isla_coralina_relief_operations.csv"
-INFRA_FILE = "isla_coralina_infrastructure.csv"
-
 
 @st.cache_data
-def load_csv(uploaded_file, default_filename):
-    """Load an uploaded CSV first. If not uploaded, try the local file name."""
-    if uploaded_file is not None:
-        return pd.read_csv(uploaded_file)
-
-    path = Path(default_filename)
-    if path.exists():
-        return pd.read_csv(path)
-
-    return None
-
 
 def prepare_relief_data(df):
     """Create the same derived columns used in Problem 2."""
@@ -50,17 +36,9 @@ def show_kpi(label, value):
 st.sidebar.header("Data files")
 st.sidebar.write("Upload files only if they are not in the same folder as this app.")
 
-relief_upload = st.sidebar.file_uploader("Relief operations CSV", type="csv")
-infra_upload = st.sidebar.file_uploader("Infrastructure CSV", type="csv")
+relief_df = pd.read_csv("isla_coralina_relief_operations.csv")
+infra_df = pd.read_csv("isla_coralina_infrastructure.csv")
 
-relief_df = load_csv(relief_upload, RELIEF_FILE)
-infra_df = load_csv(infra_upload, INFRA_FILE)
-
-if relief_df is None:
-    st.error("Please upload isla_coralina_relief_operations.csv or place it in the same folder as app.py.")
-    st.stop()
-
-relief_df = prepare_relief_data(relief_df)
 
 # -----------------------------
 # Only two dashboard filters
