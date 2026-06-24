@@ -1,0 +1,151 @@
+facility_id,facility_name,facility_type,municipality,latitude,longitude,operational_status,damage_severity,population_served,date_last_update,has_generator,road_access
+IC-0001,Central Supply Distribution Center Pue-001,Supply Distribution Center,Puerto Nuevo,20.029503,-75.843798,Fully Operational,1,3455,2025-09-16,No,Yes
+IC-0002,Mountain Bridge Pue-002,Bridge,Puerto Nuevo,20.02241,-75.84023,Fully Operational,2,2437,2025-09-26,No,Yes
+IC-0003,Eastern Water Treatment Plant Pue-003,Water Treatment Plant,Puerto Nuevo,20.054982,-75.793525,Fully Operational,1,2442,2025-09-29,Yes,Yes
+IC-0004,Grid Power Substation Pue-004,Power Substation,Puerto Nuevo,19.965603,-75.893241,Fully Operational,2,3537,2025-09-20,Yes,No
+IC-0005,Mountain Bridge Pue-005,Bridge,Puerto Nuevo,20.022899,-75.815331,Fully Operational,2,200,2025-09-19,Yes,Yes
+IC-0006,Escuela School Pue-006,School (Shelter),Puerto Nuevo,20.037601,-75.871364,Fully Operational,2,2680,2025-09-15,No,Yes
+IC-0007,Instituto School Pue-007,School (Shelter),Puerto Nuevo,19.975886,-75.812775,Fully Operational,2,2995,2025-09-21,Yes,Yes
+IC-0008,Field Supply Distribution Center Pue-008,Supply Distribution Center,Puerto Nuevo,20.065412,-75.78381,Fully Operational,2,200,2025-09-21,No,Yes
+IC-0009,Brigade Fire Station Pue-009,Fire Station,Puerto Nuevo,20.060018,-75.819329,Fully Operational,1,1893,2025-09-24,Yes,Yes
+IC-0010,Temporary Shelter Pue-010,Shelter,Puerto Nuevo,19.966335,-75.813068,Fully Operational,2,1210,2025-09-26,No,Limited
+IC-0011,Brigade Fire Station Pue-011,Fire Station,Puerto Nuevo,19.997076,-75.782636,Fully Operational,1,2592,2025-10-05,No,Yes
+IC-0012,Municipal Shelter Pue-012,Shelter,Puerto Nuevo,20.023928,-75.855707,Fully Operational,1,5553,2025-09-22,No,Yes
+IC-0013,Rural Health Clinic Pue-013,Health Clinic,Puerto Nuevo,19.957705,-75.84341,Fully Operational,2,3787,2025-10-02,No,Yes
+IC-0014,Regional Hospital Pue-014,Hospital,Puerto Nuevo,19.983556,-75.788291,Fully Operational,2,945,2025-09-15,Yes,Yes
+IC-0015,Station Fire Station Pue-015,Fire Station,Puerto Nuevo,20.042813,-75.823309,Fully Operational,3,10243,2025-09-28,Yes,Limited
+IC-0016,Colegio School Pue-016,School (Shelter),Puerto Nuevo,20.054929,-75.914851,Fully Operational,1,4699,2025-09-21,No,Limited
+IC-0017,Community Health Clinic Pue-017,Health Clinic,Puerto Nuevo,20.051919,-75.878821,Fully Operational,2,2508,2025-09-16,No,Limited
+IC-0018,Emergency Shelter Pue-018,Shelter,Puerto Nuevo,20.04111,-75.811236,Fully Operational,2,1670,2025-09-22,No,Yes
+IC-0019,Community Health Clinic Pue-019,Health Clinic,Puerto Nuevo,20.031297,-75.845952,Fully Operational,1,1323,2025-09-21,No,Limited
+IC-0020,Municipal Hospital Pue-020,Hospital,Puerto Nuevo,20.056906,-75.850656,Fully Operational,1,869,2025-09-15,Yes,Yes
+IC-0021,Main Power Substation Pue-021,Power Substation,Puerto Nuevo,20.025172,-75.832069,Fully Operational,2,10727,2025-09-19,No,Yes
+IC-0022,Colegio School Pue-022,School (Shelter),Puerto Nuevo,19.980333,-75.823473,Fully Operational,1,6942,2025-09-26,No,Yes
+IC-0023,Rio Bridge Pue-023,Bridge,Puerto Nuevo,20.02954,-75.834212,Fully Operational,3,1960,2025-09-29,No,Yes
+IC-0024,Southern Water Treatment Plant Pue-024,Water Treatment Plant,Puerto Nuevo,20.104279,-75.818374,Fully Operational,1,200,2025-09-16,No,Limited
+IC-0025,Colegio School Pue-025,School (Shelter),Puerto Nuevo,20.011318,-75.816407,Fully Operational,1,1801,2025-09-25,Yes,Yes
+IC-0026,Escuela School Pue-026,School (Shelter),Puerto Nuevo,20.011631,-75.887165,Fully Operational,1,533,2025-09-21,No,Yes
+IC-0027,Escuela School Pue-027,School (Shelter),Puerto Nuevo,20.060796,-75.792922,Fully Operational,1,7163,2025-09-16,Yes,No
+IC-0028,Rio Bridge Pue-028,Bridge,Puerto Nuevo,20.038628,-75.835831,Fully Operational,3,1985,2025-09-15,Yes,Yes
+IC-0029,Escuela School Pue-029,School (Shelter),Puerto Nuevo,20.060513,-75.844758,Fully Operational,2,200,2025-10-03,Yes,Yes
+IC-0030,Brigade Fire Station Pue-030,Fire Station,Puerto Nuevo,20.049286,-75.813873,Partially Operational,3,433,2025-10-03,No,Yes
+IC-0031,Coastal Bridge Pue-031,Bridge,Puerto Nuevo,20.10843,-75.773399,Fully Operational,3,11670,2025-09-29,Yes,Yes
+IC-0032,Municipal Shelter Pue-032,Shelter,Puerto Nuevo,20.037327,-75.907984,Fully Operational,1,200,2025-09-24,No,Yes
+IC-0033,Eastern Water Treatment Plant Pue-033,Water Treatment Plant,Puerto Nuevo,20.070986,-75.840274,Fully Operational,1,22400,2025-10-05,Yes,Yes
+IC-0034,Regional Power Substation Pue-034,Power Substation,Puerto Nuevo,20.03673,-75.866749,Fully Operational,2,9230,2025-09-20,No,No
+IC-0035,Instituto School Pue-035,School (Shelter),Puerto Nuevo,20.017653,-75.82061,Fully Operational,2,1913,2025-09-16,No,Yes
+IC-0036,Main Power Substation Pue-036,Power Substation,Puerto Nuevo,20.010542,-75.810871,Fully Operational,2,3625,2025-10-04,No,No
+IC-0037,Escuela School Pue-037,School (Shelter),Puerto Nuevo,20.001364,-75.837104,Fully Operational,1,4818,2025-09-16,No,Yes
+IC-0038,Emergency Shelter Pue-038,Shelter,Puerto Nuevo,19.985271,-75.892768,Fully Operational,2,402,2025-09-17,No,Yes
+IC-0039,Escuela School Pue-039,School (Shelter),Puerto Nuevo,20.016669,-75.808632,Fully Operational,2,230,2025-09-19,Yes,Limited
+IC-0040,Main Communications Tower Pue-040,Communications Tower,Puerto Nuevo,20.0258,-75.837539,Fully Operational,1,1722,2025-09-23,Yes,Limited
+IC-0041,Emergency Shelter Pue-041,Shelter,Puerto Nuevo,20.041687,-75.825532,Fully Operational,2,1195,2025-09-19,Yes,Limited
+IC-0042,Coastal Bridge Pue-042,Bridge,Puerto Nuevo,19.997082,-75.833629,Partially Operational,4,15387,2025-09-21,No,Yes
+IC-0043,Instituto School Pue-043,School (Shelter),Puerto Nuevo,20.001574,-75.849047,Fully Operational,1,200,2025-09-20,Yes,Limited
+IC-0044,Regional Power Substation Pue-044,Power Substation,Puerto Nuevo,20.01317,-75.837108,Fully Operational,1,4480,2025-09-29,Yes,Limited
+IC-0045,Municipal Shelter Pue-045,Shelter,Puerto Nuevo,20.059119,-75.851301,Fully Operational,1,200,2025-09-17,Yes,Yes
+IC-0046,Municipal Shelter Sie-046,Shelter,Sierra Alta,19.986917,-75.927605,Fully Operational,2,2510,2025-09-22,No,Yes
+IC-0047,Central Water Treatment Plant Sie-047,Water Treatment Plant,Sierra Alta,19.980828,-76.001545,Fully Operational,2,4206,2025-10-04,Yes,Yes
+IC-0048,Brigade Fire Station Sie-048,Fire Station,Sierra Alta,20.025612,-75.931694,Fully Operational,2,200,2025-09-18,No,Yes
+IC-0049,Emergency Shelter Sie-049,Shelter,Sierra Alta,19.962516,-75.909047,Partially Operational,3,1478,2025-10-02,No,Yes
+IC-0050,Mobile Supply Distribution Center Sie-050,Supply Distribution Center,Sierra Alta,20.105844,-75.89569,Fully Operational,1,1557,2025-09-27,No,Limited
+IC-0051,Unit Fire Station Sie-051,Fire Station,Sierra Alta,20.010768,-75.916337,Fully Operational,2,200,2025-09-30,Yes,Limited
+IC-0052,Municipal Shelter Sie-052,Shelter,Sierra Alta,20.055547,-75.907373,Fully Operational,1,200,2025-10-04,Yes,Yes
+IC-0053,Central Supply Distribution Center Sie-053,Supply Distribution Center,Sierra Alta,20.027193,-75.976674,Fully Operational,1,1741,2025-09-26,No,Limited
+IC-0054,General Hospital Sie-054,Hospital,Sierra Alta,20.102368,-75.950174,Fully Operational,2,200,2025-09-24,Yes,Yes
+IC-0055,Grid Power Substation Sie-055,Power Substation,Sierra Alta,20.050162,-75.83853,Fully Operational,1,8532,2025-09-25,Yes,Limited
+IC-0056,Rural Health Clinic Sie-056,Health Clinic,Sierra Alta,19.998476,-75.96828,Fully Operational,1,1339,2025-09-16,Yes,Limited
+IC-0057,Mountain Bridge Sie-057,Bridge,Sierra Alta,20.021167,-75.983178,Fully Operational,1,2142,2025-10-01,No,Limited
+IC-0058,Grid Power Substation Sie-058,Power Substation,Sierra Alta,19.998499,-75.920889,Partially Operational,3,6847,2025-09-15,No,No
+IC-0059,Colegio School Sie-059,School (Shelter),Sierra Alta,20.026769,-75.996623,Partially Operational,3,3104,2025-09-18,No,Yes
+IC-0060,Temporary Shelter Sie-060,Shelter,Sierra Alta,20.104073,-75.968555,Fully Operational,2,3084,2025-09-17,No,Limited
+IC-0061,Relay Communications Tower Sie-061,Communications Tower,Sierra Alta,20.074407,-75.992172,Fully Operational,2,5595,2025-10-04,Yes,Limited
+IC-0062,Municipal Shelter Sie-062,Shelter,Sierra Alta,20.085396,-75.937089,Fully Operational,2,459,2025-09-17,No,Limited
+IC-0063,Municipal Shelter Sie-063,Shelter,Sierra Alta,20.075258,-75.942005,Fully Operational,1,1258,2025-09-27,No,Yes
+IC-0064,Grid Power Substation Sie-064,Power Substation,Sierra Alta,20.058086,-75.91323,Partially Operational,3,4515,2025-09-17,Yes,Limited
+IC-0065,Escuela School Sie-065,School (Shelter),Sierra Alta,20.023319,-75.968834,Fully Operational,2,791,2025-09-19,No,Yes
+IC-0066,Escuela School Sie-066,School (Shelter),Sierra Alta,20.049835,-75.950115,Fully Operational,3,200,2025-10-01,No,No
+IC-0067,Rural Health Clinic Sie-067,Health Clinic,Sierra Alta,20.05909,-75.924932,Non-Operational,4,4750,2025-10-02,No,Yes
+IC-0068,Colegio School Cos-068,School (Shelter),Costa Sur,20.142175,-75.211032,Partially Operational,3,5955,2025-09-30,No,Yes
+IC-0069,Escuela School Cos-069,School (Shelter),Costa Sur,20.100731,-75.190512,Fully Operational,2,2375,2025-09-24,No,Yes
+IC-0070,Tower Communications Tower Cos-070,Communications Tower,Costa Sur,20.112873,-75.209487,Fully Operational,1,7185,2025-09-16,No,Yes
+IC-0071,Temporary Shelter Cos-071,Shelter,Costa Sur,20.093457,-75.258198,Partially Operational,3,200,2025-09-21,No,Yes
+IC-0072,Emergency Shelter Cos-072,Shelter,Costa Sur,20.148295,-75.219919,Partially Operational,3,1757,2025-09-22,No,Yes
+IC-0073,Escuela School Cos-073,School (Shelter),Costa Sur,20.117989,-75.208803,Non-Operational,4,4326,2025-09-15,No,Yes
+IC-0074,Instituto School Cos-074,School (Shelter),Costa Sur,20.120194,-75.231197,Partially Operational,3,1136,2025-09-20,No,Yes
+IC-0075,Colegio School Cos-075,School (Shelter),Costa Sur,20.09981,-75.21562,Non-Operational,5,269,2025-10-01,Yes,Limited
+IC-0076,Mountain Bridge Cos-076,Bridge,Costa Sur,20.137094,-75.219347,Non-Operational,5,6510,2025-09-24,No,Yes
+IC-0077,Rural Health Clinic Cos-077,Health Clinic,Costa Sur,20.122402,-75.194964,Fully Operational,2,1566,2025-10-04,No,Yes
+IC-0078,Central Supply Distribution Center Cos-078,Supply Distribution Center,Costa Sur,20.133213,-75.166425,Fully Operational,3,2437,2025-09-23,No,Yes
+IC-0079,Central Supply Distribution Center Cos-079,Supply Distribution Center,Costa Sur,20.032225,-75.150442,Partially Operational,3,707,2025-10-02,No,Limited
+IC-0080,Unit Fire Station Cos-080,Fire Station,Costa Sur,20.171181,-75.219865,Partially Operational,4,1212,2025-09-21,No,Yes
+IC-0081,Southern Water Treatment Plant Cos-081,Water Treatment Plant,Costa Sur,20.125363,-75.164664,Partially Operational,3,748,2025-09-22,Yes,No
+IC-0082,Colegio School Cos-082,School (Shelter),Costa Sur,20.143128,-75.193541,Partially Operational,4,1457,2025-09-15,No,Limited
+IC-0083,Emergency Shelter Cos-083,Shelter,Costa Sur,20.116871,-75.208021,Fully Operational,3,985,2025-09-29,Yes,Limited
+IC-0084,Instituto School Cos-084,School (Shelter),Costa Sur,20.106807,-75.235132,Non-Operational,4,1895,2025-09-18,No,No
+IC-0085,Coastal Bridge Cos-085,Bridge,Costa Sur,20.177507,-75.221688,Partially Operational,3,797,2025-09-30,No,Yes
+IC-0086,Municipal Hospital Cos-086,Hospital,Costa Sur,20.098067,-75.150518,Fully Operational,1,770,2025-09-29,Yes,Yes
+IC-0087,Rio Bridge Cos-087,Bridge,Costa Sur,20.124529,-75.202657,Fully Operational,2,17940,2025-09-19,Yes,Limited
+IC-0088,Regional Hospital Cos-088,Hospital,Costa Sur,20.105539,-75.264088,Fully Operational,3,5547,2025-09-19,No,No
+IC-0089,Mobile Supply Distribution Center Cos-089,Supply Distribution Center,Costa Sur,20.16434,-75.153618,Partially Operational,3,1916,2025-09-16,Yes,Yes
+IC-0090,Escuela School Cos-090,School (Shelter),Costa Sur,20.177736,-75.250877,Partially Operational,4,2252,2025-10-03,No,No
+IC-0091,Mountain Bridge Cos-091,Bridge,Costa Sur,20.10866,-75.252874,Fully Operational,3,622,2025-10-03,No,Limited
+IC-0092,Regional Hospital Cos-092,Hospital,Costa Sur,20.101489,-75.259471,Non-Operational,4,296,2025-09-23,Yes,Limited
+IC-0093,Southern Water Treatment Plant Cos-093,Water Treatment Plant,Costa Sur,20.185883,-75.213889,Partially Operational,3,1257,2025-09-17,No,No
+IC-0094,Escuela School Cos-094,School (Shelter),Costa Sur,20.099116,-75.231657,Partially Operational,3,1075,2025-10-02,No,Yes
+IC-0095,Southern Water Treatment Plant Cos-095,Water Treatment Plant,Costa Sur,20.126858,-75.224976,Partially Operational,4,951,2025-09-18,Yes,Yes
+IC-0096,Grid Power Substation Cos-096,Power Substation,Costa Sur,20.201992,-75.225401,Partially Operational,4,2615,2025-09-18,No,Limited
+IC-0097,Municipal Shelter Cos-097,Shelter,Costa Sur,20.106385,-75.171595,Non-Operational,4,1179,2025-09-17,No,Yes
+IC-0098,Escuela School Bah-098,School (Shelter),Bahia Verde,20.424469,-76.61232,Fully Operational,1,453,2025-09-15,Yes,Yes
+IC-0099,Central Supply Distribution Center Bah-099,Supply Distribution Center,Bahia Verde,20.375503,-76.656686,Partially Operational,3,422,2025-09-21,No,Yes
+IC-0100,Field Supply Distribution Center Bah-100,Supply Distribution Center,Bahia Verde,20.430441,-76.684978,Fully Operational,1,1592,2025-09-24,No,Yes
+IC-0101,Emergency Shelter Bah-101,Shelter,Bahia Verde,20.354001,-76.619557,Fully Operational,2,683,2025-09-27,No,Yes
+IC-0102,Southern Water Treatment Plant Bah-102,Water Treatment Plant,Bahia Verde,20.419799,-76.680281,Fully Operational,2,896,2025-09-29,Yes,Yes
+IC-0103,Central Health Clinic Bah-103,Health Clinic,Bahia Verde,20.321739,-76.600047,Fully Operational,2,2441,2025-09-28,No,Limited
+IC-0104,Rural Health Clinic Bah-104,Health Clinic,Bahia Verde,20.439279,-76.606266,Fully Operational,1,362,2025-09-16,No,Limited
+IC-0105,Station Fire Station Bah-105,Fire Station,Bahia Verde,20.371066,-76.67049,Fully Operational,2,1782,2025-09-22,No,Yes
+IC-0106,Rural Health Clinic Bah-106,Health Clinic,Bahia Verde,20.387716,-76.738205,Fully Operational,2,200,2025-09-19,No,Yes
+IC-0107,Temporary Shelter Bah-107,Shelter,Bahia Verde,20.374383,-76.635594,Partially Operational,3,200,2025-09-24,No,Limited
+IC-0108,Tower Communications Tower Bah-108,Communications Tower,Bahia Verde,20.340225,-76.640261,Fully Operational,2,3767,2025-09-21,Yes,Yes
+IC-0109,Field Supply Distribution Center Bah-109,Supply Distribution Center,Bahia Verde,20.418548,-76.663549,Fully Operational,1,1894,2025-09-17,Yes,Yes
+IC-0110,Municipal Shelter Bah-110,Shelter,Bahia Verde,20.438967,-76.607429,Fully Operational,1,1397,2025-10-02,Yes,Yes
+IC-0111,Eastern Water Treatment Plant Bah-111,Water Treatment Plant,Bahia Verde,20.37569,-76.65464,Fully Operational,1,849,2025-09-27,No,Yes
+IC-0112,Regional Hospital Bah-112,Hospital,Bahia Verde,20.275633,-76.596088,Fully Operational,2,440,2025-09-30,Yes,Yes
+IC-0113,Eastern Water Treatment Plant Bah-113,Water Treatment Plant,Bahia Verde,20.358575,-76.56904,Fully Operational,3,1384,2025-09-28,Yes,Limited
+IC-0114,Community Health Clinic Bah-114,Health Clinic,Bahia Verde,20.363982,-76.648349,Fully Operational,2,2607,2025-09-26,Yes,Yes
+IC-0115,Main Power Substation Bah-115,Power Substation,Bahia Verde,20.38908,-76.671128,Partially Operational,3,200,2025-10-01,No,Yes
+IC-0116,Coastal Bridge Bah-116,Bridge,Bahia Verde,20.382621,-76.656807,Fully Operational,2,6737,2025-09-26,Yes,Limited
+IC-0117,Field Supply Distribution Center Bah-117,Supply Distribution Center,Bahia Verde,20.386684,-76.664006,Non-Operational,4,1617,2025-09-15,No,Limited
+IC-0118,Regional Hospital Bah-118,Hospital,Bahia Verde,20.343238,-76.599442,Fully Operational,1,6789,2025-09-28,Yes,Yes
+IC-0119,General Hospital Bah-119,Hospital,Bahia Verde,20.303607,-76.629535,Fully Operational,1,2369,2025-09-28,Yes,Yes
+IC-0120,Southern Water Treatment Plant Bah-120,Water Treatment Plant,Bahia Verde,20.432153,-76.564907,Fully Operational,2,1375,2025-09-26,No,Yes
+IC-0121,Central Supply Distribution Center Bah-121,Supply Distribution Center,Bahia Verde,20.309549,-76.730275,Fully Operational,3,899,2025-09-26,Yes,Yes
+IC-0122,Mountain Bridge Bah-122,Bridge,Bahia Verde,20.311063,-76.577562,Fully Operational,2,6232,2025-09-29,Yes,Limited
+IC-0123,Mobile Supply Distribution Center Bah-123,Supply Distribution Center,Bahia Verde,20.439625,-76.714161,Fully Operational,3,1413,2025-09-15,No,Yes
+IC-0124,Central Supply Distribution Center Bah-124,Supply Distribution Center,Bahia Verde,20.243027,-76.774534,Non-Operational,4,2761,2025-09-15,No,Yes
+IC-0125,Escuela School Bah-125,School (Shelter),Bahia Verde,20.381658,-76.611326,Fully Operational,2,1558,2025-09-23,No,Limited
+IC-0126,Colegio School Rin-126,School (Shelter),Rincon del Este,20.351815,-74.478872,Non-Operational,4,1115,2025-09-23,No,Yes
+IC-0127,Colegio School Rin-127,School (Shelter),Rincon del Este,20.324131,-74.470232,Non-Operational,5,3151,2025-09-22,No,Limited
+IC-0128,Station Fire Station Rin-128,Fire Station,Rincon del Este,20.285644,-74.50318,Partially Operational,3,200,2025-09-28,No,Yes
+IC-0129,Eastern Water Treatment Plant Rin-129,Water Treatment Plant,Rincon del Este,20.354507,-74.552671,Fully Operational,1,3449,2025-09-28,No,Limited
+IC-0130,Escuela School Rin-130,School (Shelter),Rincon del Este,20.335152,-74.462293,Fully Operational,3,1188,2025-09-22,Yes,Yes
+IC-0131,Instituto School Rin-131,School (Shelter),Rincon del Este,20.360078,-74.530547,Partially Operational,4,302,2025-09-20,Yes,Limited
+IC-0132,Grid Power Substation Rin-132,Power Substation,Rincon del Este,20.354984,-74.51347,Fully Operational,2,1485,2025-09-15,Yes,Limited
+IC-0133,Temporary Shelter Rin-133,Shelter,Rincon del Este,20.347141,-74.531223,Partially Operational,3,707,2025-09-23,Yes,Limited
+IC-0134,Instituto School Rin-134,School (Shelter),Rincon del Este,20.338133,-74.547489,Non-Operational,4,932,2025-09-19,No,Limited
+IC-0135,Field Supply Distribution Center Rin-135,Supply Distribution Center,Rincon del Este,20.397218,-74.517942,Fully Operational,3,712,2025-09-24,No,Limited
+IC-0136,Regional Power Substation Rin-136,Power Substation,Rincon del Este,20.345463,-74.513984,Fully Operational,3,1970,2025-09-24,No,Yes
+IC-0137,Emergency Shelter Rin-137,Shelter,Rincon del Este,20.32709,-74.472388,Partially Operational,3,2770,2025-09-21,No,Yes
+IC-0138,Tower Communications Tower Rin-138,Communications Tower,Rincon del Este,20.289238,-74.608396,Non-Operational,5,4370,2025-09-20,No,No
+IC-0139,Main Communications Tower Rin-139,Communications Tower,Rincon del Este,20.303405,-74.537156,Partially Operational,3,6745,2025-09-19,Yes,Yes
+IC-0140,Municipal Hospital Rin-140,Hospital,Rincon del Este,20.364946,-74.527172,Partially Operational,4,347,2025-09-19,No,No
+IC-0141,Rural Health Clinic Rin-141,Health Clinic,Rincon del Este,20.331562,-74.505036,Non-Operational,4,1610,2025-09-22,No,No
+IC-0142,Central Health Clinic Rin-142,Health Clinic,Rincon del Este,20.335868,-74.517665,Partially Operational,4,8670,2025-09-16,No,Limited
+IC-0143,Grid Power Substation Rin-143,Power Substation,Rincon del Este,20.326694,-74.53301,Partially Operational,4,5110,2025-09-22,Yes,No
+IC-0144,Unit Fire Station Rin-144,Fire Station,Rincon del Este,20.354292,-74.55332,Non-Operational,4,361,2025-09-24,No,No
+IC-0145,Instituto School Rin-145,School (Shelter),Rincon del Este,20.378038,-74.505171,Partially Operational,3,200,2025-09-26,No,Yes
+IC-0146,Emergency Shelter Rin-146,Shelter,Rincon del Este,20.306163,-74.526523,Non-Operational,4,236,2025-09-25,No,No
+IC-0147,General Hospital Rin-147,Hospital,Rincon del Este,20.314089,-74.534991,Fully Operational,2,1809,2025-09-19,No,No
+IC-0148,Grid Power Substation Rin-148,Power Substation,Rincon del Este,20.370264,-74.499877,Non-Operational,4,232,2025-09-22,Yes,No
+IC-0149,Field Supply Distribution Center Rin-149,Supply Distribution Center,Rincon del Este,20.352826,-74.477269,Fully Operational,2,777,2025-09-26,No,Yes
+IC-0150,Emergency Shelter Rin-150,Shelter,Rincon del Este,20.363905,-74.530966,Partially Operational,3,200,2025-09-29,No,Yes
