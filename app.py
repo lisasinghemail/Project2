@@ -74,6 +74,9 @@ if filtered_relief.empty:
     st.warning("No relief delivery records match the selected filters.")
     st.stop()
 
+filtered_relief["fulfillment_rate"] = (
+    filtered_relief["quantity_delivered"] / filtered_relief["quantity_requested"]
+)
 under_80_pct = (filtered_relief["fulfillment_rate"] < 0.80).mean() * 100
 weighted_fulfillment = filtered_relief["quantity_delivered"].sum() / filtered_relief["quantity_requested"].sum()
 
