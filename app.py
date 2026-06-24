@@ -74,7 +74,7 @@ if filtered_relief.empty:
     st.warning("No relief delivery records match the selected filters.")
     st.stop()
 
-under_80_pct = (filtered_relief["fulfillment_rate"] < 0.80).mean() * 100
+
 weighted_fulfillment = filtered_relief["quantity_delivered"].sum() / filtered_relief["quantity_requested"].sum()
 
 kpi1, kpi2, kpi3, kpi4 = st.columns(4)
@@ -82,8 +82,6 @@ with kpi1:
     show_kpi("Total population at centers", f"{filtered_relief['population_at_center'].sum():,.0f}")
 with kpi2:
     show_kpi("Average delivery delay", f"{filtered_relief['delivery_delay_hours'].mean():.1f} hrs")
-with kpi3:
-    show_kpi("Deliveries below 80% fulfilled", f"{under_80_pct:.1f}%")
 with kpi4:
     show_kpi("Weighted fulfillment rate", f"{weighted_fulfillment:.1%}")
 
