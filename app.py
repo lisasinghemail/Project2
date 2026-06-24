@@ -151,20 +151,25 @@ with tab1:
 
 with tab2:
     st.header("Relief Distribution")
+    
 
     # Chart from Problem 2: total supply gap by municipality
-    municipality_summary = (
-        filtered_relief.groupby("municipality")
+ municipality_summary = (
+        relief_df.groupby("municipality")
         .agg(
+            deliveries=("delivery_id", "count"),
             requested=("quantity_requested", "sum"),
             delivered=("quantity_delivered", "sum"),
-            gap=("supply_gap", "sum")
+            gap=("supply_gap", "sum"),
+            avg_fulfillment=("fulfillment_rate", "mean"),
+            avg_delay_hours=("delivery_delay_hours", "mean"),
+            avg_population=("population_at_center", "mean"),
+            over_capacity_records=("capacity_utilization", lambda x: (x > 1).sum())
         )
         .reset_index()
     )
-    municipality_summary["weighted_fulfillment"] = (
-        municipality_summary["delivered"] / municipality_summary["requested"]
-    )
+    municipality_summary["weighted_fulfillment"] = municipality_summary["delivered"] / municipality_summary["requested"]
+    municipality_summary["gap_share"] = municipality_summary["gap"] / municipality_summary["gap"].sum()
     municipality_summary = municipality_summary.sort_values("gap", ascending=False)
 
     st.markdown("### Total Supply Gap by Municipality")
