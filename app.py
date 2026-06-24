@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from pathlib import Path
 
 st.set_page_config(
     page_title="Isla Coralina Relief Dashboard",
@@ -11,8 +10,6 @@ st.set_page_config(
 
 st.title("Isla Coralina Relief Operations Dashboard")
 
-
-@st.cache_data
 
 def prepare_relief_data(df):
     """Create the same derived columns used in Problem 2."""
@@ -30,19 +27,11 @@ def show_kpi(label, value):
     st.metric(label, value)
 
 
-# -----------------------------
-# Data loading
-# -----------------------------
-st.sidebar.header("Data files")
-st.sidebar.write("Upload files only if they are not in the same folder as this app.")
-
 relief_df = pd.read_csv("isla_coralina_relief_operations.csv")
 infra_df = pd.read_csv("isla_coralina_infrastructure.csv")
 
 
-# -----------------------------
-# Only two dashboard filters
-# -----------------------------
+#interactive filters
 st.sidebar.header("Filters")
 
 municipalities = sorted(relief_df["municipality"].dropna().unique())
