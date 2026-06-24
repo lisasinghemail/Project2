@@ -154,8 +154,7 @@ with tab2:
     
 
     # Chart from Problem 2: total supply gap by municipality
- municipality_summary = (
-        relief_df.groupby("municipality")
+ municipality_summary = (relief_df.groupby("municipality")
         .agg(
             deliveries=("delivery_id", "count"),
             requested=("quantity_requested", "sum"),
