@@ -40,7 +40,8 @@ selected_municipalities = st.sidebar.multiselect(
     options=municipalities,
     default=municipalities
 )
-date= pd.to_datetime(df_relief["date"], errors="coerce")
+
+date= pd.to_datetime(relief_df["date"], errors="coerce")
 min_date = date.min().date()
 max_date = date.max().date()
 selected_dates = st.sidebar.date_input(
