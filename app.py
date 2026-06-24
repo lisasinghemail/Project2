@@ -158,8 +158,7 @@ with tab2:
         .agg(
             requested=("quantity_requested", "sum"),
             delivered=("quantity_delivered", "sum"),
-            gap=("supply_gap", "sum"),
-            avg_delay_hours=("delivery_delay_hours", "mean")
+            gap=("supply_gap", "sum")
         )
         .reset_index()
     )
