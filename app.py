@@ -40,9 +40,9 @@ selected_municipalities = st.sidebar.multiselect(
     options=municipalities,
     default=municipalities
 )
-
-min_date = relief_df["date"].min().date()
-max_date = relief_df["date"].max().date()
+date= pd.to_datetime(relief_df["date"], errors="coerce")
+min_date = date.min().date()
+max_date = date.max().date()
 selected_dates = st.sidebar.date_input(
     "Date range",
     value=(min_date, max_date),
@@ -66,9 +66,7 @@ if infra_df is not None:
 else:
     filtered_infra = None
 
-# -----------------------------
-# Shared summary section
-# -----------------------------
+#summary/ KPI
 st.subheader("Operational Summary")
 
 if filtered_relief.empty:
