@@ -149,9 +149,9 @@ with tab1:
         st.plotly_chart(status_fig, use_container_width=True)
 
         st.info(
-            "Action: use the map to identify damaged and non-operational facilities. "
-            "Municipalities with many non-operational facilities should receive repair crews, backup power, "
-            "and alternate service coverage first."
+            "Summary: Using the map to identify damaged and non-operational facilities. "
+            "Municipalities with many non-operational facilities should receive resources such as repair crews, alternate power source(generator),"
+            "and alternate service coverage."
         )
 
 with tab2:
@@ -249,7 +249,7 @@ with tab2:
 
     worst_gap_row = municipality_summary.iloc[0]
     st.info(
-        f"Action: prioritize {worst_gap_row['municipality']} because it has the largest filtered supply gap "
-        f"({worst_gap_row['gap']:,.0f} units). Watch municipalities with low fulfillment rates and long delay "
-        "distributions because they indicate access or routing problems."
+        f"Summary: Prioritize {worst_gap_row['municipality']} because it has the largest filtered supply gap "
+        f"({worst_gap_row['gap']:,.0f} units). Monitoring municipalities with low fulfillment rates and long delay "
+        "distributions because they indicate accessible route problems."
     )
