@@ -29,7 +29,7 @@ def show_kpi(label, value):
 
 relief_df = pd.read_csv("isla_coralina_relief_operations.csv")
 infra_df = pd.read_csv("isla_coralina_infrastructure.csv")
-
+relief_df["supply_gap"] = relief_df["quantity_requested"] - relief_df["quantity_delivered"]
 
 #interactive filters
 st.sidebar.header("Filters")
@@ -154,21 +154,19 @@ with tab2:
     
 
     # Chart from Problem 2: total supply gap by municipality
-    municipality_summary = (relief_df.groupby("municipality")
+    municipality_summary = (
+        filtered_relief.groupby("municipality")
         .agg(
-            deliveries=("delivery_id", "count"),
             requested=("quantity_requested", "sum"),
             delivered=("quantity_delivered", "sum"),
             gap=("supply_gap", "sum"),
-            avg_fulfillment=("fulfillment_rate", "mean"),
-            avg_delay_hours=("delivery_delay_hours", "mean"),
-            avg_population=("population_at_center", "mean"),
-            over_capacity_records=("capacity_utilization", lambda x: (x > 1).sum())
+            avg_delay_hours=("delivery_delay_hours", "mean")
         )
         .reset_index()
     )
-    municipality_summary["weighted_fulfillment"] = municipality_summary["delivered"] / municipality_summary["requested"]
-    municipality_summary["gap_share"] = municipality_summary["gap"] / municipality_summary["gap"].sum()
+    municipality_summary["weighted_fulfillment"] = (
+        municipality_summary["delivered"] / municipality_summary["requested"]
+    )
     municipality_summary = municipality_summary.sort_values("gap", ascending=False)
 
     st.markdown("### Total Supply Gap by Municipality")
